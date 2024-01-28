@@ -3,7 +3,7 @@ html::-webkit-scrollbar {
   }
 
 html{
-    background-image: url(/img/background2.svg);
+    background-image: url(/img/BACKGROUND.png);
 }
 
 body{
@@ -58,7 +58,6 @@ hr{
 .hiring{
     padding: 5px;
     text-align: center;
-    background-color: #c7826b;
 }
 .intro{
     text-align: center;
@@ -160,13 +159,17 @@ hr{
     display: none;
 }
 
+.menuitem{
+    padding: 5px;
+}
+
 /************************************************************* D E S K T O P ***********************************************************/
 
 
 @media (min-width: 1280px){
     
 html{
-    background-image: url(/img/backgrounddesktop.svg);
+    background-image: url(/img/BACKGROUND.png);
 }
 
 .desktop{
@@ -177,13 +180,18 @@ html{
     position: fixed;
     top: 0;
     z-index: 999;
+    padding: 0px;
 }
 
 .main{
     background: none;
+    justify-content: center;
+    text-align: center;
+    padding: 0px;
 }
 
 .main img{
+    width: 85%;
     background-color: #d49d8f;
 }
 
@@ -204,6 +212,7 @@ html{
 
 .hiring-desktop{
     display: block;
+    top: 0;
 }
 
 .hiring{
@@ -213,11 +222,11 @@ html{
 .menu{
     margin-left: 25%;
     width: 75%;
-    font-size: 40px;
+    font-size: 35px;
 }
 
 .menu img{
-    width: 40%;
+    width: 30%;
 }
 
 .ingredients img{
@@ -228,4 +237,8 @@ html{
     font-size: 35px;
 }
 
+.menuitem{
+    margin-left: 20%;
+    width: 60%;
+}
 }
