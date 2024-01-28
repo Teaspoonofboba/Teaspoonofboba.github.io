@@ -86,30 +86,34 @@ hr{
     background-color: white;
 }
 
+@keyframes reveal {
+    from {transform: translateX(-150px); opacity: 0%;}
+    to {transform: translateX(0px); opacity: 100%;}
+  }
+
 .menu{
     text-align: center;
     width: 100%;
 }
 
-.menuitem{
-    transform: translateX(400%);
-    transition: transform 0.4s ease;
-}
-
-.menuitem:nth-of-type(even){
-    transform: translateX(-400%);
-}
-
-.menuitem.show{
-    transform: translateX(0%);
-}
-
 .menu img{
     width: 200px;
+    animation: auto linear reveal both;
+    animation-timeline: view();
+    animation-range: entry, exit;
 }
+
+
+@keyframes reveal-up {
+    from {transform: translateY(-150px); opacity: 0%;}
+    to {transform: translateY(0px); opacity: 100%;}
+  }
 
 .menu p{
     font-size: 25px;
+    animation: auto linear reveal-up both;
+    animation-timeline: view();
+    animation-range: entry, exit;
 }
 
 .ingredients{
@@ -119,8 +123,16 @@ hr{
     flex-wrap: wrap;
 }
 
+@keyframes reveal-invert {
+    from {transform: translateX(150px); opacity: 0%;}
+    to {transform: translateX(0px); opacity: 100%;}
+  }
+
 .ingredients img{
     width: 75px;
+    animation: auto linear reveal-invert both;
+    animation-timeline: view();
+    animation-range: entry, exit;
 }
 
 #homebutton{
