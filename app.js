@@ -17,5 +17,3 @@ boxes.forEach((box) => {
     }
     }
 )}
-
-

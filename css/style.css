@@ -3,7 +3,7 @@ html::-webkit-scrollbar {
   }
 
 html{
-    background-image: url(/img/BACKGROUND.png);
+    background-image: url(/img/background2.png);
 }
 
 body{
@@ -156,10 +156,10 @@ hr{
 
 
 @media (min-width: 1280px){
-    
 html{
-    background-image: url(/img/BACKGROUND.png);
+    background-image: url(/img/backgrounddesktop.png);
 }
+
 
 .desktop{
     height: 1000%;
