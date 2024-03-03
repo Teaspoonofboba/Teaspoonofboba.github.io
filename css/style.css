@@ -9,7 +9,7 @@ html{
   margin: auto;
     background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
 }
-
+@media (min-width: 1280px){
 body{
     margin: auto;
 }
@@ -241,10 +241,10 @@ body{
     display: none;
   }
 
+}
 /*MOBILE*/
-@media (max-width: 1279px){
 
-  .menu-all h1{
+.menu-all h1{
     font-family: "Righteous", sans-serif;
     font-weight: 400;
     font-style:  italic;
@@ -390,7 +390,3 @@ body{
         }
       }
     } 
-
-}
-
-/*IHATEGITHUBPAGESISTG*/
