@@ -21,9 +21,8 @@ body{
   display: flex;
   flex-direction: column;
   gap: var(--lx-gap);
-}
+
   .carousel {
-    aspect-ratio: 16/9;
     width: 100%;
     position: relative;
     overflow: hidden;
@@ -41,48 +40,6 @@ body{
         object-fit: cover;
         object-position: center;
       }
-
-      .homebuttons button.apply{
-      font-family: "Righteous", sans-serif;
-      font-weight: 400;
-      font-style:  italic;
-      font-size: 35px;
-      text-align: center;
-      background-color: #0000001c;
-      color: white;
-      width: 250px;
-      height: 120px;
-      border-radius: 25px;
-      border: none;
-      position: absolute;
-      bottom: 230px;
-      left: 0;
-      margin-left: 150px;
-      transition: 0.5s;
-      }
-      .homebuttons button.workwith{
-        font-family: "Righteous", sans-serif;
-        font-weight: 400;
-        font-style:  italic;
-        font-size: 35px;
-        text-align: center;
-        background-color: #0000001c;
-        color: white;
-        width: 250px;
-        height: 120px;
-        border-radius: 25px;
-        border: none;
-        position: absolute;
-        bottom: 230px;
-        left: 0;
-        margin-left: 470px;
-        transition: 0.5s;
-        }
-        .homebuttons button:hover{
-          cursor: pointer;
-          background-color: white;
-          color: black;
-          }
 
       &.active {
         opacity: 1;
@@ -126,6 +83,7 @@ body{
       }
     }
   }
+} 
 
 /*MENU*/
 .menu-all{
