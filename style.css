@@ -21,7 +21,7 @@ body{
   display: flex;
   flex-direction: column;
   gap: var(--lx-gap);
-
+}
   .carousel {
     aspect-ratio: 16/9;
     width: 100%;
@@ -126,7 +126,6 @@ body{
       }
     }
   }
-} 
 
 /*MENU*/
 .menu-all{
