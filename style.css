@@ -92,7 +92,15 @@ body{
   }
 
   .btn {
-display: none;
+    visibility: hidden;
+  }
+
+  .prev {
+    left: 2%;
+  }
+
+  .next {
+    right: 2%;
   }
 
   .dots {
@@ -101,7 +109,7 @@ display: none;
     align-items: center;
     justify-content: center;
     gap: 5px;
-    bottom: 30px;
+    bottom: 70px;
 
     .dot {
       border-radius: 150px;
@@ -143,10 +151,13 @@ width: 100%;
 
     .menuitem{
       margin: auto;
+      margin-bottom: 45px;
       display: flex;
       flex-direction: column;
       justify-content: space-evenly;
       text-align: center;
+      border: 2px solid white;
+      border-radius: 25px;
     }
 
 /*menu*/

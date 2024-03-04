@@ -40,7 +40,7 @@ const hidenElements3 = document.querySelectorAll('.icon-mobile');
 hidenElements3.forEach((el) => observer.observe(el));
 
 
-document.addEventListener("DOMContentLoaded", function () {
+
     let carousel = document.querySelector(".carousel");
     let items = carousel.querySelectorAll(".item");
     let dotsContainer = document.querySelector(".dots");
@@ -86,4 +86,3 @@ document.addEventListener("DOMContentLoaded", function () {
         showItem(index);
       });
     });
-  });
