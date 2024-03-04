@@ -70,7 +70,7 @@
                 color: black;
                 }
     
-            &.active {
+            .item .active {
               opacity: 1;
               display: block;
             }
@@ -97,13 +97,10 @@
             width: 15px;
             background-color: #24242131;
             transition: background-color 0.2s ease;
-      
-            &.active,
-            &:hover {
-              background-color: #fff;
-            }
           }
-          
+            .dot.active, .dot:hover {
+              background-color: #fff;
+            }         
 
   .menu-all h1{
     font-family: "Righteous", sans-serif;
