@@ -15,31 +15,31 @@
     <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap" rel="stylesheet">
     <!---------------------------------OTHER SHIT----------------------------------->
     <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/swiffy-slider@1.6.0/dist/js/swiffy-slider.min.js" crossorigin="anonymous" defer></script>
+    <link href="https://cdn.jsdelivr.net/npm/swiffy-slider@1.6.0/dist/css/swiffy-slider.min.css" rel="stylesheet" crossorigin="anonymous">
     <script defer src="app.js"></script>
     <script src="https://kit.fontawesome.com/719a633c98.js" crossorigin="anonymous"></script>
     <title>Teaspoon Of Boba</title>
 </head>
     <!---------------------------------BODY----------------------------------->
     <body>
-        <div class="carousel-container">
-            <div class="carousel">              
-            <div class="item active">
-                <img src="img/carru/carru2.webp" alt="Image 1" />
-              </div>
-              <div class="item">
-                <img src="img/carru/carru3.webp" alt="Image 1" />
-              </div>
-              <div class="item">
-                <img src="img/carru/carru1.webp" alt="Image 2" />
-              </div>
-              <div class="item">
-                <img src="img/carru/carru4.webp" alt="Image 3" />
-              </div>
+        <div class="swiffy-slider">
+            <ul class="slider-container">
+                <li> <a href=""><img src="img/carru/carru2.webp" style="max-width: 100%;height: auto;"></a></li>
+                <li><img src="img/carru/carru1.webp" style="max-width: 100%;height: auto;"></li>
+                <li><img src="img/carru/carru3.webp" style="max-width: 100%;height: auto;"></li>
+                <li><img src="img/carru/carru4.webp" style="max-width: 100%;height: auto;"></li>
+            </ul>
+        
+            <button type="button" class="slider-nav"></button>
+            <button type="button" class="slider-nav slider-nav-next"></button>
+        
+            <div class="slider-indicators">
+                <button class="active"></button>
+                <button></button>
+                <button></button>
             </div>
-            <button class="navbtnbb prev"><i class="fa-solid fa-arrow-left"></i></button>
-            <button class="navbtnbb next"><i class="fa-solid fa-arrow-right"></i></button>
-            <div class="dots"></div>
-        </div>      
+        </div> 
             <!---------------------------------MENU----------------------------------->
     <div class="menu-all">
                     <!---------------------------------SMOOTHIE----------------------------------->
