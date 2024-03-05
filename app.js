@@ -2,7 +2,7 @@ const observer = new IntersectionObserver((entries) =>{
     entries.forEach((entry) =>{
         console.log(entry)
         if (entry.isIntersecting) {
-            entry.target.classList.add('show');
+            entry.target.classList.add('ing-slide');
         }
     });
 });
@@ -21,7 +21,7 @@ const observer2 = new IntersectionObserver((entries) =>{
     });
 });
 
-const hidenElements2 = document.querySelectorAll('.menuitem');
+const hidenElements2 = document.querySelectorAll('.menu-text');
 hidenElements2.forEach((el) => observer.observe(el));
 
 
