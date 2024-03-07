@@ -10,7 +10,7 @@ html{
 }
 
 body{
-  margin: auto;
+  margin: 10px;
   background-image: url(/img/background2.png);
   background-repeat: no-repeat;
   background-attachment: fixed;
