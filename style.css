@@ -7,35 +7,153 @@
 
 html{
   margin: auto;
-  background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
 }
 
 body{
   margin: auto;
+  background-image: url(/img/background2.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+h1{
+  font-family: "Righteous", sans-serif;
+  font-weight: 400;
+  font-style:  italic;
+}
+
+p{
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+/*INDEX*/
+
+.swiffy-slider{
+  filter: drop-shadow(0px 0px 15px #000000);
+}
+
+.homepage p{
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 32px;
+  text-shadow: 1px 1px 1px white;
+}
+
+.homepage button{
+  font-family: "Righteous", sans-serif;
+  font-weight: 400;
+  font-size: 30px;
+  color: rgba(171,134,150,1);
+  text-shadow: 1px 1px 2px black;
+  height: 100px;
+  background-color: #d49d8f00;
+  border-radius: 25px;
+  border: solid 2px #f4fcff;
+  box-shadow: 1px 1px 10px rgb(51, 51, 51);
+  transition: 0.5s;
+}
+
+.homepage button:hover{
+  text-shadow: 0px 0px 0px black;
+  color: black;
+  background-color: #f4fcff;
+  cursor: pointer;
 }
 
 .intro{
   margin: auto;
   width: 95%;
-  background-color: #00000050;
-  border-radius: 30px;
+  /*background: linear-gradient(0deg, rgba(237,170,200,1) 0%, rgba(171,134,150,1) 100%);*/
+  /*border-radius: 30px;*/
+  /*border: double 5px #f4fcff;*/
   text-align: center;
+  margin-bottom: 10px;
+  padding: 4px;
 }
 
-.intro p{
-  font-family: "Titillium Web", sans-serif;
-  font-weight: 600;
-  font-style: normal;
-  font-size: 18px;
+.buttons{
+  display: flex;
+  padding: 5px;
+  width: 100%;
+  justify-content: space-around;
+}
+
+.buttons button:hover{
+  cursor: pointer;
 }
 
 .logo{
-  width: 300px;
+  z-index: 999;
+  filter: drop-shadow(5px 5px 5px #363636);
+  width: 100%;
 }
 
+.location{
+  margin: auto;
+  width: 95%;
+  background: linear-gradient(180deg, rgba(237,170,200,1) 0%, rgba(171,134,150,1) 100%);
+  border-radius: 30px;
+  border: double 5px #f4fcff;
+  text-align: center;
+}
+
+.location-circle{
+  filter: drop-shadow(1px 1px 5px #000000);
+  width: 100%;
+}
+
+.go-menu{
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  margin: 10px;
+  z-index: 99999;  
+  }
+  
+  .go-menubtn{
+    color: #f4fcff;
+    background-color: #d49d8f;
+    font-size: 24px;
+    padding: 10px;
+    border: 1px solid #f4fcff;
+    border-radius: 200px;
+    transition: 0.5s;
+  }
+  
+  .go-menubtn:hover{
+    font-size: 38px;
+    padding: 16px;
+    cursor: pointer;
+    box-shadow: 1px 1px 5px black;
+    border: 5px solid #f4fcff;
+  }
 
 
 /*MENU*/
+
+/*.menu-all{
+  background-color: white;
+}*/
+
+.menuintro{
+  text-align: center;
+  margin-bottom: 75px;
+}
+
+.menuintro h1{
+  text-shadow: 1px 5px 5px rgba(237,170,200,1);
+  margin: 0;
+  font-size: 70px;
+}
+
+.menuintro p{
+  font-size: 25px;
+  text-shadow: 1px 3px rgba(237,170,200,1);
+  padding-bottom: 50px;
+}
 
 .gohome{
 position: fixed;
@@ -67,19 +185,14 @@ z-index: 99999;
 overflow: hidden;
 width: 100%;
 }
-
 .menu-all h1{
-  font-family: "Righteous", sans-serif;
-  font-weight: 400;
-  font-style:  italic;
-  font-size: 25px;
-    }
+  border-radius: 25px;
+  border: solid 1px black;
+  font-size: 35px;
+  }
 
 .menu-all p{
-  font-family: "Titillium Web", sans-serif;
-  font-weight: 600;
-  font-style: normal;
-  font-size: 20px;
+  font-size: 22px;
     }
 
     .menuitem{
@@ -89,12 +202,12 @@ width: 100%;
       flex-direction: column;
       justify-content: space-evenly;
       text-align: center;
-      border: 2px solid white;
     }
 
 /*menu*/
 
 .menu-text{
+  text-shadow: 2px 2px 10px rgba(237,170,200,1);
   font-size: 0px;
   opacity: 0;
   transition: 1.5s;
@@ -114,7 +227,8 @@ width: 100%;
 /*BIG ICONS*/
 
 .icon-mobile{
-  margin-left: 68px;
+  filter: drop-shadow(1px 1px 3px #363636);
+  margin: auto;
   width: 200px;
   height: 200px;
   transition: 1s ease;
@@ -139,6 +253,7 @@ width: 100%;
     margin: auto;
     width: 75px;
     height: 75px;
+    filter: drop-shadow(1px 1px 1px #363636);
 }
 
 .ing-slide{
@@ -158,4 +273,25 @@ width: 100%;
 }
 .ing-slide:nth-child(4){
   transition-delay: 600ms;
+}
+
+.logo-menu{
+  filter: drop-shadow(5px 5px 5px #363636);
+  position: absolute;
+  width: 80%;
+  top: 0;
+  right: 0;
+  z-index: -1;
+  opacity: 0.4;
+}
+
+.menubreak{
+  height: 1px;
+  background: black;
+  border: none;
+  outline: none;
+  margin: 3em 3em 5em;
+  position: relative;
+  width: 50%;
+  margin: 3em auto;
 }
