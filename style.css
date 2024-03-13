@@ -7,13 +7,13 @@
 
 html{
   margin: auto;
-}
-
-body{
-  margin: 0px 25px 0px 25px;
   background-image: url(/img/background2.png);
   background-repeat: no-repeat;
   background-attachment: fixed;
+}
+
+body{
+  margin: auto;
 }
 
 h1{
@@ -31,7 +31,23 @@ p{
 /*INDEX*/
 
 .swiffy-slider{
-  filter: drop-shadow(0px 0px 15px #000000);
+  margin-bottom: 32px;
+  filter: drop-shadow(0px 10px 15px #000000);
+}
+
+.homepage{
+  margin: auto;
+  width: 300px;
+}
+
+.menubody{
+  margin: auto;
+  width: 300px;
+}
+
+.contactbody{
+  margin: auto;
+  width: 300px;
 }
 
 .homepage p{
@@ -298,7 +314,7 @@ width: 100%;
 }
 
 .form{
-  margin-left: 18px;
+  margin: auto;
   display: none;
 }
 
