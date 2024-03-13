@@ -296,3 +296,35 @@ width: 100%;
   width: 50%;
   margin: 3em auto;
 }
+
+.form{
+  margin-left: 18px;
+  display: none;
+}
+
+.showbutton{
+  font-family: "Righteous", sans-serif;
+  font-weight: 400;
+  font-size: 50px;
+  color: #f4fcff;
+  background-color: #d49d8f;
+  font-size: 24px;
+  padding: 8px;
+  border: 1px solid #f4fcff;
+  border-radius: 200px;
+  transition: 0.2s;
+}
+
+.showbutton:hover{
+  cursor: pointer;
+  box-shadow: 1px 1px 5px black;
+  border: 5px solid #f4fcff;
+}
+
+.togglebuttons{
+  margin: auto;
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
