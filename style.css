@@ -244,12 +244,6 @@ width: 100%;
   transform: translateX(-50%);
 }
 
-.icon-mobile:hover{
-  transition: 0.2s;
-  width: 250px;
-  height: 250px;
-}
-
 .show3{
   transform: translateX(0%);
 }
@@ -372,6 +366,10 @@ width: 100%;
 
 @media (max-width: 400px){
   .icon-desktop{
+    display: none;
+  }
+
+  .icon-desktop-left{
     display: none;
   }
 }
