@@ -378,9 +378,9 @@ width: 100%;
   html{
     margin: auto;
     background-image: url(/img/background2.png);
-    background-size: cover;
-    background-attachment: scroll;
+    background-attachment: fixed;
     background-position: center;
+    background-size: 100%;
 
   }
   
@@ -434,16 +434,17 @@ width: 100%;
 /*COLLABPAGE*/
 
 .contactbody{
+  text-align: center;
   margin: auto;
-  margin-left: 25%;
   width: 100%;
 }
 
 .togglebuttons{
-  margin: auto;
-  margin-top: 15px;
+  text-align: center;
+  margin: 40px;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  justify-content: center;
   gap: 20px;
 }
 
@@ -453,7 +454,7 @@ width: 100%;
   font-size: 50px;
   color: #f4fcff;
   background-color: #d49d8f;
-  padding: 8px;
+  padding: 4px;
   border: 1px solid #f4fcff;
   border-radius: 200px;
   transition: 0.2s;
@@ -467,6 +468,39 @@ width: 100%;
 }
 
   iframe{
-    width: 600px;
+    margin: 0;
+    width: 1000px;
   }
+
+  .ingredient{
+      margin: auto;
+      width: 125px;
+      height: 125px;
+      filter: drop-shadow(1px 1px 1px #363636);
+  }
+
+  .menuintro{
+    width: 100%;
+  }
+
+  .menuintro h1{
+    text-shadow: 1px 5px 5px rgba(237,170,200,1);
+    margin: 0;
+    font-size: 120px;
+  }
+  
+  .menuintro p{
+    font-size: 40px;
+    text-shadow: 1px 3px rgba(237,170,200,1);
+  }
+
+  .menu-all h1{
+    font-size: 55px;
+  }
+
+  .menu-all p{
+    font-size: 25px;
+  }
+
+  
 }
