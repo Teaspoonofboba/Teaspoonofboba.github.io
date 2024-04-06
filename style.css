@@ -7,9 +7,7 @@
 
 html{
   margin: auto;
-  background-image: url(/img/background2.png);
-  background-repeat: no-repeat;
-  background-attachment: fixed;
+  background-image: url(/img/background3.png);
 }
 
 body{
@@ -69,9 +67,10 @@ p{
   border-radius: 25px;
   border: none;
   box-shadow: 1px 1px 10px rgb(51, 51, 51);
-  transition: 0.4s;
+  transition: ease 0.5s;
   margin-bottom: 10px;
   width: 100%;
+  border: 2px solid #f4fcff;
 }
 
 .homepage button:hover{
@@ -80,7 +79,6 @@ p{
   color: #f4fcff;
   background-color: #d49d8f;
   cursor: pointer;
-  border: double 5px #f4fcff;
 }
 
 .intro{
@@ -151,7 +149,7 @@ p{
 
 .menuintro{
   text-align: center;
-  margin-bottom: 75px;
+  margin-bottom: 0;
 }
 
 .menuintro h1{
@@ -200,6 +198,15 @@ width: 100%;
   border-radius: 25px;
   border: solid 1px black;
   font-size: 35px;
+  }
+
+  .menu-typetext{
+    color: white;
+    text-align: center !important;
+    text-shadow: 1px 5px 5px rgb(0, 0, 0) !important; 
+    margin: 0 !important;
+    font-size: 45px !important;
+    border: none !important;
   }
 
 .menu-all p{
@@ -305,7 +312,7 @@ width: 100%;
   background: black;
   border: none;
   outline: none;
-  margin: 3em 3em 5em;
+  margin: 0em;
   position: relative;
   width: 50%;
   margin: 3em auto;
@@ -372,20 +379,26 @@ width: 100%;
   .icon-desktop-left{
     display: none;
   }
+
+  .desktopslider{
+    display: none;
+  }
 }
 
 @media (min-width: 800px){
   html{
     margin: auto;
-    background-image: url(/img/background2.png);
-    background-attachment: fixed;
-    background-position: center;
-    background-size: 100%;
+    background-size: cover;
+    background-image: url(/img/background3.png);
 
   }
   
   body{
     margin: auto;
+  }
+
+  .mobileslider{
+    display: none;
   }
 
   .logo{
@@ -479,9 +492,23 @@ width: 100%;
       filter: drop-shadow(1px 1px 1px #363636);
   }
 
+  .boxing{
+    width: 150px !important;
+    height: 150px !important;
+  }
+
   .menuintro{
     width: 100%;
   }
+
+.menu-typetext{
+  color: white;
+  text-align: center !important;
+  text-shadow: 1px 5px 5px rgb(0, 0, 0) !important; 
+  margin: 0 !important;
+  font-size: 100px !important;
+  border: none !important;
+}
 
   .menuintro h1{
     text-shadow: 1px 5px 5px rgba(237,170,200,1);
@@ -490,6 +517,7 @@ width: 100%;
   }
   
   .menuintro p{
+    margin: 0;
     font-size: 40px;
     text-shadow: 1px 3px rgba(237,170,200,1);
   }
