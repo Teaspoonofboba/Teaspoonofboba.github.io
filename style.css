@@ -371,7 +371,7 @@ width: 100%;
   transform: translateX(0%);
 }
 
-@media (max-width: 400px){
+@media (max-width: 900px){
   .icon-desktop{
     display: none;
   }
