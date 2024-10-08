@@ -157,3 +157,13 @@ p{
   .animation{
     transform: translateY(0px);
   }
+
+  @media (min-width: 600px){
+  :root {
+    --marquee-width: 100%;
+    --marquee-height: auto;
+    --marquee-elements-displayed: 3;
+    --marquee-element-width: calc(var(--marquee-width) / var(--marquee-elements-displayed));
+    --marquee-animation-duration: calc(var(--marquee-elements) * 3s);
+  }
+}

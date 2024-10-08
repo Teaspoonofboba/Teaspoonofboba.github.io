@@ -142,3 +142,9 @@ p{
     cursor: pointer;
     filter: drop-shadow(black 0px 0px 2px);
 }
+
+@media (min-width: 600px){
+    .actualmenucard{
+        width: 20%;
+    }
+}

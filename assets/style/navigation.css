@@ -170,3 +170,13 @@
 	text-align: center;
 	color: white;
 }
+
+@media (min-width: 600px){
+	html{
+		margin: auto;
+	}
+	body{
+		width: 400px;
+		height: 900px;
+	}
+}
