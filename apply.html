@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu</title>
+    <link rel="stylesheet" href="assets/style/navigation.css">
+    <link rel="stylesheet" href="assets/style/forms.css">
+    <script defer src="assets/script/app.js"></script>
+    <script defer src="assets/script/webhook.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiffy-slider@1.6.0/dist/js/swiffy-slider.min.js" crossorigin="anonymous" defer></script>
+    <link href="https://cdn.jsdelivr.net/npm/swiffy-slider@1.6.0/dist/css/swiffy-slider.min.css" rel="stylesheet" crossorigin="anonymous">
+</head>
+<body>
+    <div class="headergap"></div>
+    <!--NAVIGATION-->
+    <button id="burger" class="open-main-nav">
+        <span class="burger"></span>
+        <span class="burger-text"><p>Menu</p></span>
+    </button>
+    <nav class="main-nav" id="main-nav">
+        <ul>
+            <li>
+                <a href="index.html">Home</a>
+            </li>
+            <li>
+                <a href="menu.html">Menu</a>
+            </li>
+            <li>
+                <a href="apply.html">Apply</a>
+            </li>
+            <li>
+                <a href="collab.html">Collaborate</a>
+            </li>
+            <li>
+                <a href="#">Contact</a>
+            </li>
+        </ul>
+    </nav>
+    <h1>Job Application</h1>
+    <div class="collabform">
+    <form onsubmit="sendApp(event)">
+        <label for="Question1" class="form-label">Name</label>
+        <textarea required class="form-control" id="Question1"></textarea>
+        <br>
+        <label for="Question2" class="form-label">CSN</label>
+        <textarea required class="form-control" id="Question2"></textarea>
+        <br>
+          <label for="Question3" class="form-label">Phone Number</label>
+          <textarea required class="form-control" id="Question3"></textarea>
+          <br>
+          <label for="Question3" class="form-label">How long have you been in the city?</label>
+          <textarea required class="form-control" id="Question4"></textarea>
+          <br>
+          <label for="Question3" class="form-label">What times would you generally be available for an interview?</label>
+          <textarea required class="form-control" id="Question5"></textarea>
+          <br>
+          <label for="Question3" class="form-label">What timezone do you think in?</label>
+          <textarea required class="form-control" id="Question6"></textarea>
+          <br>
+          <label for="Question3" class="form-label">What is your favourite fruit or flavour?</label>
+          <textarea required class="form-control" id="Question7"></textarea>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+    </div>
+</body>
+</html>

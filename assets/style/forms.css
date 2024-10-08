@@ -1,0 +1,67 @@
+body{
+    margin: auto;
+    background-color: #E8A598;
+    color: white;
+}
+
+@font-face {
+    font-family: GraublauWeb;
+    src: url("/assets/fonts/Garet-Book.ttf")  format("truetype");
+}
+@font-face {
+    font-family: cream-DEMO;
+    src: url("/assets/fonts/cream-DEMO.ttf")  format("truetype");
+}
+
+
+h1{
+    filter: drop-shadow( black 1px 1px 5px);
+    font-family: cream-DEMO;
+    text-align: center;
+    font-size: 28px;
+}
+
+.collabform{
+    margin: auto;
+    width: 90%;
+}
+
+.form-label{
+    text-align: left;
+    font-family: cream-DEMO;
+    font-size: 18px;
+    text-decoration: underline;
+}
+
+.form-control{
+    font-family: GraublauWeb;
+    background-color: transparent;
+    border: 0;
+    border-bottom: 2px #fff solid;
+    width: 100%;
+    padding: 15px 0;
+    font-size: 18px;
+    color: #fff;
+}
+
+.form-control:focus{
+    outline: 0;
+}
+
+.btn-primary{
+    width: 95%;
+    border-radius: 25px;
+    background-color: #fcd5ce00;
+    border: solid 2px #FEC89A;
+    font-family: GraublauWeb;
+    font-size: 24px;
+    color: white;
+    margin-top: 5%;
+    transition: ease 0.375s;
+  box-shadow: black 0px 0px 5px;
+}
+
+.btn-primary:hover{
+    cursor: pointer;
+    background-color: #FEC89A;
+  }
