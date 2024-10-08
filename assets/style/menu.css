@@ -1,0 +1,144 @@
+/*
+BackgroundColour1 - #E8A598
+BackgroundColour2 - #FFB5A7
+HighlightColour1  - #FCD5CE
+HighloghtColour2  - #FEC89A
+*/
+
+/*fonts*/
+@font-face {
+    font-family: GraublauWeb;
+    src: url("/assets/fonts/Garet-Book.ttf")  format("truetype");
+}
+@font-face {
+    font-family: cream-DEMO;
+    src: url("/assets/fonts/cream-DEMO.ttf")  format("truetype");
+}
+
+/*BODY*/
+body{
+    text-align: center;
+    margin: auto;
+    background-color: #E8A598;
+    color: white;
+}
+
+.menubody{
+    display: grid;
+    grid-template-columns: 50%  50%;
+}
+
+.menuitem{
+    text-align: center;
+    font-size: 12px;
+    border-width: 2px;
+    border-style: none none solid none;
+    border-color: #FCD5CE;
+    padding: 2px;
+}
+
+.menuitem:nth-of-type(odd){
+    border-style: none solid solid none;
+}
+
+.itemimg{
+    width: 100%;
+    margin: 0px;
+    transform: translateY(50px);
+    opacity: 0;
+}
+
+.itemimgshow{
+    opacity: 1;
+    transition: 0.6s;
+    transform: translateY(0px);
+}
+
+.menuitem button{
+    width: 95%;
+    font-family: cream-DEMO;
+    background: linear-gradient(90deg, rgba(252,213,206,0) 5%, rgba(252,213,206,1) 50%, rgba(252,213,206,0) 95%);
+    border-radius: 5px;
+    border: none 1px white;
+    font-size: 18px;
+    color: white;
+    padding: 1%;
+}
+
+.menuitem button:hover{
+    cursor: pointer;
+    background: #FEC89A ;
+    transition: 0.5s;
+}
+
+h1{
+    filter: drop-shadow( black 1px 1px 5px);
+    font-family: cream-DEMO;
+}
+
+h2{
+    font-family: cream-DEMO;
+}
+
+p{
+   font-family: GraublauWeb;
+}
+
+.toggle-target[data-hideme="hidden"] {
+    display: none;
+  }
+  
+.toggle-target[data-hideme="showme"] {
+    display: block;
+  }
+
+.menucards{
+    margin: auto;
+}
+.actualmenucard{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    background-color: #FCD5CE;
+    border-radius: 25px;
+    border: solid white;
+    width: 90%;
+    border-radius: 25px;
+    z-index: 999999;
+    padding: 1%;
+}
+
+.actualmenucard p{
+    filter: drop-shadow(black 1px 1px 1px);
+}
+
+.actualmenucard img{
+    width: 80%;
+    filter: drop-shadow(black 1px 1px 5px);
+}
+
+.ingredient{
+    display: flex;
+    margin-bottom: 2%;
+    justify-content: space-around;
+}
+.ingredient img{
+    width: 25%;
+    filter: drop-shadow(black 1px 1px 5px);
+}
+
+.closebtn{
+    background-color: #ffffff00;
+    border: none;
+    font-size: 24px;
+    color: white;
+    font-weight: bolder;
+    font-family: cream-DEMO;
+    transition: ease 0.275s;  
+}
+.closebtn:hover{
+    cursor: pointer;
+    filter: drop-shadow(black 0px 0px 2px);
+}
