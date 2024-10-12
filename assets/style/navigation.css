@@ -187,6 +187,6 @@ footer{
 	background-color: #FCD5CE;
 	display: flex;
 	justify-content: center;
-	h1{font-family: GraublauWeb; font-size: 14px !important;}
+	h1{font-family: GraublauWeb; font-size: 14px !important; filter: none !important;}
 	img{height: 75px;}
 }
