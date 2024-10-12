@@ -1,0 +1,40 @@
+body{
+    margin: auto;
+    background-color: #E8A598;
+    color: white;
+}
+
+@font-face {
+    font-family: GraublauWeb;
+    src: url("/assets/fonts/Garet-Book.ttf")  format("truetype");
+}
+@font-face {
+    font-family: cream-DEMO;
+    src: url("/assets/fonts/cream-DEMO.ttf")  format("truetype");
+}
+
+
+h1{
+    font-family: cream-DEMO;
+    font-size: 44px;
+    text-align: center;
+}
+
+.card{
+    margin: auto;
+    margin-bottom: 5%;
+    text-align: center;
+    h1{font-family: cream-DEMO; font-size: 32px};
+    p{font-family: GraublauWeb; font-size: 24px;}
+    background-color: #FFB5A7;
+    border-radius: 30px;
+    border: solid #FCD5CE 2px;
+    width: 90%;
+}
+
+.card img{
+    width: 250px;
+    height: 250px;
+    border-radius: 5000px;
+    border: solid 5px #FCD5CE;
+}

@@ -180,3 +180,13 @@
 		height: 900px;
 	}
 }
+
+footer{
+	text-align: center;
+	margin-top: 5%;
+	background-color: #FCD5CE;
+	display: flex;
+	justify-content: center;
+	h1{font-family: GraublauWeb; font-size: 14px !important;}
+	img{height: 75px;}
+}
