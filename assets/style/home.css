@@ -167,3 +167,10 @@ p{
     --marquee-animation-duration: calc(var(--marquee-elements) * 3s);
   }
 }
+
+@media (max-width: 800px){
+	body{
+		margin-left: 2%;
+		margin-right: 4%;
+	}
+}

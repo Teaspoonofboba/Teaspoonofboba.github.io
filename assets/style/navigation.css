@@ -182,6 +182,13 @@
 }
 
 
+@media (max-width: 800px){
+	body{
+		margin-left: 2%;
+		margin-right: 4%;
+	}
+}
+
 /**/
 .footermain{
 	text-align: center;

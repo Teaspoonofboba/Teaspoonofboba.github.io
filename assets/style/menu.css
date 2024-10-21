@@ -193,3 +193,9 @@ p{
     60% {transform: translateY(-15px);} 
 }
 
+@media (max-width: 800px){
+	body{
+		margin-left: 2%;
+		margin-right: 4%;
+	}
+}
