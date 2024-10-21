@@ -37,4 +37,6 @@ h1{
     border: solid 5px #FCD5CE;
 }
 
-p{font-family: GraublauWeb; font-size: 24px;}
+.card p{
+    font-family: GraublauWeb; 
+    font-size: 24px;}
