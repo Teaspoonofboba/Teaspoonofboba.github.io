@@ -188,9 +188,8 @@
 	margin-top: 5%;
 	background-color: #FCD5CE;
 	display: flex;
-	justify-content: center;
-	h1{font-family: GraublauWeb; font-size: 14px !important; filter: none !important;}
-	
+	justify-content: center;	
 }
 
+.footermain h1{font-family: GraublauWeb; font-size: 14px !important; filter: none !important;}
 .footermain img{height: 75px;}

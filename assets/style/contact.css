@@ -24,8 +24,6 @@ h1{
     margin: auto;
     margin-bottom: 5%;
     text-align: center;
-    h1{font-family: cream-DEMO; font-size: 32px};
-    p{font-family: GraublauWeb; font-size: 24px;}
     background-color: #FFB5A7;
     border-radius: 30px;
     border: solid #FCD5CE 2px;
@@ -38,3 +36,6 @@ h1{
     border-radius: 5000px;
     border: solid 5px #FCD5CE;
 }
+
+.card h1{font-family: cream-DEMO; font-size: 32px};
+.card p{font-family: GraublauWeb; font-size: 24px;}
