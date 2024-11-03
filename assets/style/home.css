@@ -35,9 +35,9 @@ p{
   :root {
     --marquee-width: 100vw;
     --marquee-height: auto;
-    --marquee-elements-displayed: 3;
+    --marquee-elements-displayed: 4;
     --marquee-element-width: calc(var(--marquee-width) / var(--marquee-elements-displayed));
-    --marquee-animation-duration: calc(var(--marquee-elements) * 3s);
+    --marquee-animation-duration: calc(var(--marquee-elements) * 1.5s);
   }
   
   .marquee {
@@ -164,7 +164,7 @@ p{
     --marquee-height: auto;
     --marquee-elements-displayed: 3;
     --marquee-element-width: calc(var(--marquee-width) / var(--marquee-elements-displayed));
-    --marquee-animation-duration: calc(var(--marquee-elements) * 3s);
+    --marquee-animation-duration: calc(var(--marquee-elements) * 1.5s);
   }
 }
 
