@@ -190,12 +190,31 @@
 }
 
 /**/
+.footermainone{
+	background-color: #FCD5CE;
+    margin: auto;
+    text-align: center;
+}
+
 .footermain{
 	text-align: center;
 	margin-top: 5%;
-	background-color: #FCD5CE;
 	display: flex;
 	justify-content: center;	
+}
+
+.footerlogo{
+	width: 50px;
+}
+
+.secondfoot{
+	color: black;
+	padding: 0px;
+}
+
+.secondfoot p{
+	margin: 0px;
+    font-family: GraublauWeb;
 }
 
 .footermain h1{font-family: GraublauWeb; font-size: 14px !important; filter: none !important;}
